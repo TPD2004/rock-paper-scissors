@@ -7,7 +7,24 @@
 </head>
 <body>
     <script>
-        
+        function getComputerChoice() {
+            let number = Math.random();
+
+            let rock = "rock";
+            let paper = "paper";
+            let scissor = "scissors";
+
+            if (number < 0.3333) {
+                return rock;
+            } else if (number > 0.6666) {
+                return paper;
+            } else {
+                return scissor;
+            }
+        }
+
+
+
     </script>
 </body>
 </html>
